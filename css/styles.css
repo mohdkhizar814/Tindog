@@ -1,0 +1,168 @@
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.25rem;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* heading */
+.big-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* sections */
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Title section */
+#title {
+  padding-bottom: 11rem;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15%;
+}
+
+.title-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* navigation bar */
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.4rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+/* download button */
+.download-button {
+  margin: 3% 5% 3% 0;
+}
+
+/* title image */
+.title-img {
+  width: 23rem;
+  transform: rotate(25deg);
+  position: absolute;
+}
+
+/* IMP-WRITE MEDIA QUERY CODE AFTER ALL TITLE CODE  */
+/* For tab and mobile TITLE SECTION*/
+@media (max-width:1023px) {
+  #title {
+    padding-bottom: 7%;
+  }
+
+  .title-img {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* ------------------------------------------------------------------- */
+/* features section */
+#features {
+  position: relative;
+}
+
+.feature-box {
+  padding: 3rem;
+  height: 5%;
+}
+
+.features-heading {
+  font-size: 1.5rem;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4648;
+}
+
+/* Testimonials section */
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+}
+
+/* Press */
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Cards */
+.card {
+  max-width: 100%;
+}
+
+.pricing-column {
+  padding: 3% 1%;
+}
+
+.card-pricing {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* ------------------------------------------------------ */
+/* Call to action section */
+.footer-icons {
+  margin: 20px 10px;
+}
